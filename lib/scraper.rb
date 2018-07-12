@@ -36,7 +36,7 @@ class Scraper
     self.make_courses
     Course.all.each do |course|
   end
-  Scraper.new.print_courses
+  # Scraper.new.print_courses
   
   # doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
  
